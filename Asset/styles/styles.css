@@ -64,3 +64,92 @@ ul li{
   position: absolute;
   right: 0;
 }
+#shape{
+  margin-top: 197px;
+  width: 704px;
+  height: 243px;
+  background: #0D28A6;
+  border-radius: 60px 0px 0px 0px;
+}
+
+/* our section */
+
+.our-section {
+  height: 100%;
+  margin-top: 100px;
+}
+.right-img {
+  text-align: right;
+  padding: 0;
+}
+.right-img img {
+  margin-right: 61px;
+}
+.desc {
+  margin-top: 36px;
+}
+
+.desc h1 {
+  width: 468px;
+  margin-left: 39px;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.desc p {
+  width: 468px;
+  margin-top: 24px;
+  margin-left: 39px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.desc ul {
+  margin-left: 39px;
+}
+
+.desc ul li {
+  padding-bottom: 18px;
+}
+
+.desc ul img {
+  padding-right: 16px;
+}
+
+/* why-us */
+
+.why-us h1 {
+  margin: 100px 0 16px 0;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.why-us p{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* .card, .card-body{
+  width: 268px;
+  height: 196px;
+} */
+
+.card-body h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card-body h5, .card-body img {
+  margin-bottom: 16px;
+}
+.card-text {
+  width: 220px;
+}

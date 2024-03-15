@@ -4,20 +4,20 @@ body {
 }
 
 header {
-  background: #F1F3FF;
+  background: #f1f3ff;
   height: 500px;
 }
 .navbar-container {
   padding-top: 24px;
   padding-bottom: 24px;
-  background-color: #F1F3FF;
+  background-color: #f1f3ff;
 }
 nav {
   width: 100%;
   height: 36px;
 }
 .logo {
-  background: #0D28A6;
+  background: #0d28a6;
   width: 100px;
   height: 34px;
 }
@@ -26,15 +26,15 @@ ul {
   margin-bottom: 0;
 }
 
-ul li{
+ul li {
   margin-right: 32px;
   font-size: 14px;
   font-weight: 400;
 }
 
 .btn {
-  background-color: #5CB85F;
-  color: #FFFFFF;
+  background-color: #5cb85f;
+  color: #ffffff;
   font-size: 14px;
   font-weight: 700;
   border-radius: 2px;
@@ -58,17 +58,17 @@ ul li{
   font-size: 14px;
   line-height: 20px;
 }
-.image-car{
-  margin-top: 33px;  
+.image-car {
+  margin-top: 33px;
   padding-top: 60px;
   position: absolute;
   right: 0;
 }
-#shape{
+#shape {
   margin-top: 197px;
   width: 704px;
   height: 243px;
-  background: #0D28A6;
+  background: #0d28a6;
   border-radius: 60px 0px 0px 0px;
 }
 
@@ -129,7 +129,7 @@ ul li{
   line-height: 36px;
 }
 
-.why-us p{
+.why-us p {
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
@@ -147,9 +147,85 @@ ul li{
   line-height: 24px;
 }
 
-.card-body h5, .card-body img {
+.card-body h5,
+.card-body img {
   margin-bottom: 16px;
 }
 .card-text {
   width: 220px;
+}
+
+/* testimonial carousel */
+.testimonial-header h1, .testimonial-header p {
+  text-align: center;
+}
+
+.testimonial-header h1 {
+  margin-top: 100px;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.testimonial-header p {
+  margin-bottom: 40px;
+}
+
+.carousel-1 {
+  width: 619px;
+  height: 270px;
+  background-color: #F1F3FF;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  border: none;
+  margin: 0 auto;
+}
+
+.statement-testimonial {
+  width: 415px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.image-desc {
+  height: 100%;
+  align-items: center;
+}
+
+.image-testimonial {
+  margin: 95px 0 95px 46px;
+}
+
+.desc-testimonial {
+  margin-right: 32px;
+}
+
+.carousel-item {
+  align-content: center;
+  margin-bottom: 24px;
+}
+.d-block {
+  background-color: red;
+}
+
+.prev-button {
+  margin-right: 12px;
+}
+
+.next-button {
+  margin-left: 12px;
+}
+
+.prev-button, .next-button {
+  border: none;
+  background: none;
+  padding: 0;
 }
